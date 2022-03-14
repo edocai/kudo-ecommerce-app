@@ -1,7 +1,7 @@
 ## Features
 
-⚡️ Fully functional eCommerce application using commerce.js
-⚡️ Stripe for card transactions
+⚡️ Fully functional eCommerce application using commerce.js\
+⚡️ Stripe for card transactions\
 ⚡️ Fully Responsive\
 ⚡️ Well organized
 
