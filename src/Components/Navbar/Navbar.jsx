@@ -14,16 +14,15 @@ const Navbar = ({ totalItems }) => {
     <div>
         <AppBar position='fixed' className={classes.appBar} color='inherit'>
             <Toolbar>
-                <Typography component={Link} to='/' style={{position: 'fixed',
-       left: '45%',
-}} variant='h6' className={classes.title} color='inherit'>
-                    <img src={logo} alt='E-Commerce' height='28px' className={classes.img} />
-                    <h2 style={{paddingLeft: '10px'}} >KUDO</h2>
+                <Typography component={Link} to='/' style={{display: 'flex', alignItems: 'center', justifyContent: 'center', 
+                fontSize: '1.8rem', fontWeight: '520', padding: '15px'}} 
+                 className={classes.title} color='inherit'>
+                    <img src={logo} style={{paddingRight: '10px'}} alt='E-Commerce' height='28px' className={classes.img} />
+                    KUDO
                 </Typography>
-                <div className={classes.grow} />
               {location.pathname === '/' && (
-                <div className={classes.button}>
-                    <IconButton component={Link} to='/cart' aria-label='Show cart items' color='inherit'>
+                <div className={classes.button} >
+                    <IconButton component={Link} to='/cart' aria-label='Show cart items' color='inherit' style={{ marginLeft: "auto" }} >
                         <Badge badgeContent={totalItems} color='secondary'>
                             <ShoppingCart />
                         </Badge>
