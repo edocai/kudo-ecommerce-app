@@ -3,7 +3,7 @@
 ### Built with
 
 ⚡️ HTML&CSS\
-⚡️ React.js + Hooks\
+⚡️ React.js + Hooks + Router\
 ⚡️ Material-UI\
 ⚡️ commerce.js\
 ⚡️ stripe 
