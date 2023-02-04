@@ -1,7 +1,7 @@
 # Kudo - An E-commerce Site Built with ReactJS
 
 ## Key Features
-### React Hooks: React Hooks provide a way to handle state and side effects in functional components. This makes it easier to manage complex state and side effects, and reduces the need for class components.
+<b>React Hooks</b>: React Hooks provide a way to handle state and side effects in functional components. This makes it easier to manage complex state and side effects, and reduces the need for class components.
 
 ### React Router: React Router is used to manage routing and navigation within the site. This allows for clean, concise URL structures and makes it easy to navigate between different pages and sections of the site.
 
